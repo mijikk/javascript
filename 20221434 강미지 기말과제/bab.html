@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🦄유니콘 밥 먹이기🦄</title>
+    <style>
+        input[type=button] {
+            text-align: center;
+            margin: auto; 
+            padding: 16px 32px;   
+            border: none;
+            background-color: rgb(255, 168, 197);
+            color: white;
+        }
+
+        input[type=button2] {
+            text-align: center;
+            margin: auto; 
+            padding: 16px 28px;   
+            border: none;
+            background-color: rgb(70, 159, 201);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <img id="image" src="img/n.png" width="500">
+    <script>
+        function changeImage() {
+            document.getElementById("image").src = "img/jw.png";
+        }
+    </script>
+    <br>
+    <input type="button" onclick="changeImage()"  value="밥주기"/>
+    <input type="button2" onclick="alert('배불러요~')" value="말 걸어보기">
+</body>
+</html>
